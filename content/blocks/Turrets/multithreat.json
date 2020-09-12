@@ -1,0 +1,48 @@
+{
+	"type": "PowerTurret",
+	"name": "Multithreat",
+	"description": "Operating at lower energy output than its predecessor, enables the 'Multithreat' to rapidly discharge energy beams at a rapid rate. Can target air",
+
+	"size": 1,
+	"health": 180,
+	"reload": 8,
+	"range": 100,
+	"inaccuracy": 8,
+	"shots" : 1,
+	
+	"targetAir" : true, 
+	"targetGround" : true,
+	"shootCone" : 1,
+	"spread" : 4,
+	
+	"recoil" : 1,
+	"restitution" : 0.5, 
+	"rotatespeed": 8,
+	
+	"shootSound" : "laser",
+	"ammoUseEffect": "smelt",
+
+    "powerUse" : 1.6,
+	"hasPower" : true,
+	"shootType" : {
+		"type" : "BasicBulletType",
+		"trailEffect" : "artilleryTrail",
+		"speed": 6.0,
+		"lifetime" : 40,
+		"damage": 8,
+		"bulletHeight" : 25,
+		"hitEffect": "hitLaser",
+		"shootEffect": "smelt",
+		"pierce": true,
+		"smokeEffect": "smelt",
+		"frontColor": "#67daff"
+	},
+
+	"requirements": [
+		{ "item": "lead", "amount": 65 },
+		{ "item": "graphite", "amount": 40 },
+		{ "item": "silicon", "amount": 60}
+	],
+	"category": "turret",
+	"research": "heavylight"
+}

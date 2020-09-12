@@ -1,0 +1,96 @@
+{
+	"type": "ItemTurret",
+	"name": "Strikeforce",
+	"description": "Equipped with thicker reinforced barrel than its predecessor, allow the Strikeforce to dish out thermal compounds at fearsome quantity",
+
+	"size": 3,
+	"health": 1500,
+	"reload": 45,
+	"range": 170,
+	"maxAmmo": 256,
+	"lifetime": 2,
+	"inaccuracy": 5,
+	"shots" : 48,
+
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 0.04,
+	"spread" : 1,
+
+	"recoil" : 8,
+	"restitution" : 0.6, 
+	"rotatespeed": 4,
+
+	"shootSound" : "shotgun",
+	"ammoUseEffect": "shellEjectBig",
+	"buildCostMultiplier" : 0.4,
+
+	"xRand" : 1,
+	"ammoPerShot" : 48,
+
+	"ammo": {
+		"pyratite": {
+			"type" : "BasicBulletType",
+			"bulletSprite" : "shell",
+			"trailEffect" : "artilleryTrail",
+			"speed": 10.0,
+			"status" : "burning",
+			"statusDuration": "1200",
+			"damage": 6,
+			"splashDamage" : 5,
+			"bulletHeight" : 20,
+			"bulletWidth" : 8,
+			"splashDamageRadius" : 38,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"frontColor": "ffd54f",
+			"fragBullets": 8,
+			"fragBullet": {
+				"type": "LiquidBulletType",
+				"liquid": "slag",
+				"status": "melting",
+				"lifetime": 120,
+				"speed": 1,
+				"damage" : 5
+			}
+		},
+		"titanium": {
+			"type" : "BasicBulletType",
+			"speed" : 12.0,
+			"bulletSprite" : "shell",
+			"status": "corroded", 
+			"statusDuration": "1200",
+			"damage": 12,
+			"splashDamage" : 5,
+			"bulletHeight" : 12,
+			"bulletWidth" : 8,
+			"splashDamageRadius" : 38,
+			"hitEffect": "freezing",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"frontColor": "4fc3f7",
+			"backColor": "4fc3f7",
+			"fragBullets": 8,
+			"fragBullet": {
+				"type": "LiquidBulletType",
+				"liquid": "cryofluid",
+				"status" : "corroded",
+				"lifetime": 125,
+				"speed": 1,
+				"damage": 5
+			}
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 300 },
+		{ "item": "silicon", "amount": 350 },
+		{ "item": "thorium", "amount": 240},
+		{ "item": "plastanium", "amount": 150},
+		{ "item": "titanium", "amount": 225}
+	],
+	"category": "turret",
+	"research": "blockhouse"
+}

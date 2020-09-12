@@ -1,0 +1,86 @@
+{
+	"type": "ItemTurret",
+	"name": "Tempest",
+	"description": "Shotgun shells, shot at gatling speed to ensure inevetable devastation upon the receiving end",
+
+	"size": 3,
+	"health": 1200,
+	"reload": 4,
+	"range": 220,
+	"maxAmmo": 96,
+	"inaccuracy": 5,
+	"shots" : 6,
+
+	"targetAir" : true, 
+	"targetGround" : true,
+	"shootCone" : 1.2,
+	"spread" : 1,
+
+	"recoil" : 5,
+	"restitution" : 0.6, 
+	"rotatespeed": 4,
+
+	"shootSound" : "shotgun",
+	"ammoUseEffect": "shellEjectBig",
+
+	"buildCostMultiplier" : 0.4,
+
+	"xRand" : 3,
+	"ammoPerShot" : 6,
+
+	"ammo": {
+		"titanium": {
+			"type" : "BasicBulletType",
+			"speed": 8.0,
+			"lifetime" : 28,
+			"damage": 15,
+			"bulletHeight" : 12,
+			"hitEffect": "mineHuge",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"knockback" : 50,
+			"ammoMultiplier": 4
+		},
+		"blast-compound": {
+			"type": "BasicBulletType",
+			"trailEffect" :"artilleryTrail",
+			"speed": 7.0,
+			"damage": 10,
+			"lifetime" : 30,
+			"splashDamage" : 8,
+			"bulletHeight" : 12,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"splashDamageRadius" : 32,
+			"frontColor": "ff795e",
+			"ammoMultiplier": 4
+		},
+		"phase-fabric": {
+			"type": "BasicBulletType",
+			"trailEffect" :"artilleryTrail",
+			"speed": 9.0,
+			"lifetime" : 30,
+			"damage": 5,
+			"status": "corroded", 
+			"bulletHeight" : 12,
+			"hitEffect": "dooropen",
+			"shootEffect": "producesmoke",
+			"pierce": true,
+			"smokeEffect": "hitBulletBig",
+			"frontColor": "f4ba6e",
+			"ammoMultiplier": 4
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 265 },
+		{ "item": "silicon", "amount": 250 },
+		{ "item": "thorium", "amount": 150 },
+		{ "item": "graphite", "amount": 240},
+		{ "item": "titanium", "amount": 225}
+	],
+	"category": "turret",
+	"research": "breachlock"
+}
