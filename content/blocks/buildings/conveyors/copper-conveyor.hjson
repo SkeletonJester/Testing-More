@@ -9,7 +9,7 @@ speed:0.12
 displayedSpeed:15.6
 category:distribution
 itemCapacity:6
-research: copper-forge
+research: core-shard
 craftTime: 20
 canOverdrive:false
 
