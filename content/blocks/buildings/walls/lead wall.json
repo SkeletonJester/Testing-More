@@ -1,0 +1,13 @@
+{
+	"name": "Lead Wall",
+	"description": "Cheap defensive options. Slightly stronger than the Copper Wall.",
+	"type": "Wall",
+	"health":340 ,
+	"size":1 ,
+	"requirements": [
+		{ "item": "lead", "amount":4 }
+		
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

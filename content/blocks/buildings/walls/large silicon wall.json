@@ -1,0 +1,16 @@
+{
+	"name": "Large Silicon Wall",
+	"description": "Not as strong as the Plastanium Wall, but it can deflect some attacks.",
+	"type": "DeflectorWall",
+	"health":2200 ,
+	"hitTime":10
+	"maxDamageDeflect":25
+	
+	"size":2 ,
+	"requirements": [
+		{ "item": "silicon", "amount":24 }
+		
+	],
+	"category": "defense",
+	"research": "silicon-wall"
+}
