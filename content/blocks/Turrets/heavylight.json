@@ -27,7 +27,7 @@
 	"shootType" : {
 		"type" : "BasicBulletType",
 		"trailEffect" : "artilleryTrail",
-		"speed": 6.5,
+		"speed": 9,
 		"lifetime" : 50,
 		"damage": 20,
 		"bulletHeight" : 30,
