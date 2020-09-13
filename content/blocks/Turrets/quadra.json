@@ -20,15 +20,6 @@
 		"graphite": "standardDense",
 		"pyratite": "standardIncendiary",
 		"silicon": "standardHoming",
-		"石英": {
-            "speed": 3
-            "bulletWidth": 11
-            "damage": 11
-            "bulletHeight": 11
-            "shootEffect": "shootBig"
-            "smokeEffect": "shootSmallSmoke"
-            "ammoMultiplier": 2
-                    },
 },
 		
 	"requirements": [
