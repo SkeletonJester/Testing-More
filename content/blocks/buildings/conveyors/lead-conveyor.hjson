@@ -9,7 +9,7 @@ speed:0.14
 displayedSpeed:18.2
 category:distribution
 itemCapacity:8
-research: lead-forge
+research: copper-conveyor
 craftTime: 30
 canOverdrive:false
 
