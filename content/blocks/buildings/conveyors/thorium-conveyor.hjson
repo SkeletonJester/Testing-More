@@ -9,7 +9,7 @@ speed:0.18
 displayedSpeed:23.4
 category:distribution
 itemCapacity:12
-research: thorium-forge
+research: titanium-conveyor
 craftTime: 50
 canOverdrive:false
 
