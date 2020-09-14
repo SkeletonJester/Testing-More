@@ -40,7 +40,7 @@
 			"smokeEffect": "hitBulletBig"
 		},
 		
-		"metalglass": {
+		"metaglass": {
 			"type" : "BasicBulletType",
 			"trailEffect" : "artilleryTrail",
 			"speed": 8.0,
