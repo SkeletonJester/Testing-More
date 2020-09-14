@@ -38,6 +38,25 @@
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig"
+		},
+		
+		"metalglass": {
+			"type" : "BasicBulletType",
+			"trailEffect" : "artilleryTrail",
+			"speed": 8.0,
+			"damage": 5,
+			"bulletHeight" : 12,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig"
+			"splashDamageRadius": 15,
+			"splashDamage": 5,
+			"reloadMultiplier": 0.75,
+        		"fragBullets": 5,
+        		"fragVelocityMin": 1,
+        		"fragVelocityMax": 1,
+        		"hitSound":"artillery"
 		}
 	},
 	"requirements": [
