@@ -1,3 +1,4 @@
+
 {
 	"type": "ItemTurret",
 	"name": "Breachlock",
@@ -50,13 +51,35 @@
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig"
+			"fragBullets": 3,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"lifetime": 2,
+				"speed": 1,
+				"fragBullets": 2,
+				"fragBullet": {
+					"type": "BasicBulletType",
+					"lifetime": 1,
+					"speed": 2,
+					"damage": 1,
+				}
+			}
+		},
+		
+		"pyratite": {
+			"type" : "BasicBulletType",
+			"trailEffect" : "artilleryTrail",
+			"speed": 6.0,
+			"lifetime" : 30,
+			"damage": 7,
+			"bulletHeight" : 12,
 			"splashDamageRadius": 15,
-			"splashDamage": 5,
-			"reloadMultiplier": 0.75,
-        		"fragBullets": 5,
-        		"fragVelocityMin": 1,
-        		"fragVelocityMax": 1,
-        		"hitSound":"artillery"
+			"splashDamage": 4,
+			"frontColor": "ffd54f",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 4
 		}
 	},
 	"requirements": [
