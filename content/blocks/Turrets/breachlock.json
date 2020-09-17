@@ -36,7 +36,6 @@
 		"metaglass": {
 			"type" : "BasicBulletType",
 			"speed": 10,
-			"drag": 1,
 			"reloadMultiplier": 0.75,
 			"recoil" : 20,
 			"damage": 7,
@@ -63,7 +62,7 @@
 			"type" : "BasicBulletType",
 			"speed": 5,
 			"damage": 15,
-				"splashDamage": 5,
+				"splashDamage": 16,
 				"splashDamageRadius": 25,
 			"knockback": 5,
 			"bulletHeight" : 10,
