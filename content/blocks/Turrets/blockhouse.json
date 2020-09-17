@@ -30,57 +30,51 @@
 	"ammo": {
 		"lead": {
 			"type" : "BasicBulletType",
-			"trailEffect" : "artilleryTrail",
-			"speed": 8.0,
-			"lifetime" : 19,
-			"damage": 9,
-			"bulletHeight" : 12,
+			"speed": 8,
+			"damage": 7,
+			"bulletHeight" : 10,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
-			"pierce": false,
-			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 4
-		},
-		"pyratite": {
-			"type" : "BasicBulletType",
-			"trailEffect" : "artilleryTrail",
-			"status" : "burning",
-			"speed": 6.0,
-			"lifetime" : 30,
-			"damage": 4,
-			"bulletHeight" : 12,
-			"splashDamageRadius": 15,
-			"splashDamage": 3,
-			"frontColor": "ffd54f",
-			"shootEffect": "producesmoke",
-			"pierce": false,
-			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 4
+			"smokeEffect": "hitBulletBig"
 		},
 		
 		"metaglass": {
 			"type" : "BasicBulletType",
-			"trailEffect" : "artilleryTrail",
-			"speed": 8.0,
-			"damage": 3,
-			"bulletHeight" : 12,
+			"speed": 10,
+			"drag": 1,
+			"reloadMultiplier": 1.5,
+			"recoil" : 20,
+			"damage": 7,
+			"bulletHeight" : 10,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
-			"pierce": false,
 			"smokeEffect": "hitBulletBig"
-			"fragBullets": 5,
+			"fragBullets": 3,
 			"fragBullet": {
 				"type": "BasicBulletType",
-				"lifetime": 2,
+				"damage": 3,
 				"speed": 1,
-				"fragBullets": 3,
+				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
-					"lifetime": 1,
 					"speed": 2,
-					"damage": 1,
+					"damage": 2,
 				}
 			}
+		},
+		
+		"pyratite": {
+			
+			"type" : "BasicBulletType",
+			"speed": 5,
+			"damage": 15,
+				"splashDamage": 5,
+				"splashDamageRadius": 5,
+			"knockback": 5,
+			"bulletHeight" : 10,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"smokeEffect": "hitBulletBig"
 		}
 	},
 	"requirements": [
