@@ -68,7 +68,7 @@
 			"speed": 5,
 			"damage": 10,
 				"splashDamage": 3,
-				"splashDamageRadius": 5,
+				"splashDamageRadius": 12.5,
 			"knockback": 5,
 			"bulletHeight" : 10,
 			"hitEffect": "blastExplosion",
