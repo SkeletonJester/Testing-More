@@ -37,7 +37,7 @@
 			"type" : "BasicBulletType",
 			"speed": 10,
 			"drag": 1,
-			"reloadMultiplier": 1.5,
+			"reloadMultiplier": .75,
 			"recoil" : 20,
 			"damage": 7,
 			"bulletHeight" : 10,
