@@ -29,14 +29,50 @@
 	"ammo": {
 		"lead": {
 			"type" : "BasicBulletType",
-			"trailEffect" : "artilleryTrail",
-			"speed": 6.0,
-			"lifetime" : 19,
+			"speed": 8,
 			"damage": 5,
 			"bulletHeight" : 10,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
-			"pierce": false,
+			"smokeEffect": "hitBulletBig"
+		},
+		
+		"metaglass": {
+			"type" : "BasicBulletType",
+			"speed": 10,
+			"drag": 1,
+			"reloadMultiplier": 1.5,
+			"recoil" : 20,
+			"damage": 3,
+			"bulletHeight" : 10,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"smokeEffect": "hitBulletBig"
+			"fragBullets": 3,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"damage": 3,
+				"speed": 1,
+				"fragBullets": 2,
+				"fragBullet": {
+					"type": "BasicBulletType",
+					"speed": 2,
+					"damage": 2,
+				}
+			}
+		},
+		
+		"pyratite": {
+			
+			"type" : "BasicBulletType",
+			"speed": 5,
+			"damage": 10,
+				"splashDamage": 3,
+				"splashDamageRadius": 5,
+			"knockback": 5,
+			"bulletHeight" : 10,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
 			"smokeEffect": "hitBulletBig"
 		}
 	},
