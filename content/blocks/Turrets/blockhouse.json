@@ -11,7 +11,7 @@
 	"shots" : 16,
 	"inaccuracy": 15,
 	"targetAir" : false,
-	"shootCone" : 1.5,
+	"shootCone" : 1,
 	"spread" : 3,
 	"recoil" : 10,
 	"restitution" : 0.5, 
