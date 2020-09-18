@@ -8,22 +8,17 @@
 	"reload": 60,
 	"range": 150,
 	"maxAmmo": 24,
-	"lifetime": 2,
 	"inaccuracy": 5,
-	"shots" : 32,
-	
+	"shots" : 16,
 	"targetAir" : false, 
 	"targetGround" : true,
 	"shootCone" : 0.08,
-	"spread" : 1,
-
+	"spread" : 3,
 	"recoil" : 8,
 	"restitution" : 0.6, 
 	"rotatespeed": 4,
-
 	"shootSound" : "shotgun",
 	"ammoUseEffect": "shellEjectBig",
-
 	"xRand" : 1,
 	"ammoPerShot" : 8,
 
