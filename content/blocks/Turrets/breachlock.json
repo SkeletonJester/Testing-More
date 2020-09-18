@@ -11,8 +11,8 @@
 	"maxAmmo": 40,
 	"shots" : 8,
 	"targetAir": false,
+		"targetGround": true,
 	"inaccuracy": 5,
-	"targetAir" : false,
 	"shootCone" : 1,
 	"spread" : 3,
 	"recoil" : 10,
@@ -47,13 +47,13 @@
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 3,
-				"speed": 5,
-				"lifetime": 30,
+				"speed": 2,
+				"lifetime": 15,
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
-					"speed": 5,
-					"lifetime": 30,
+					"speed": 2,
+					"lifetime": 15,
 					"damage": 2,
 				}
 			}
