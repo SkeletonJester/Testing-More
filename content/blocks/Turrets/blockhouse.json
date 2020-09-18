@@ -4,24 +4,22 @@
 	"description": "Sometimes all you is a bigger barrel. A direct upgrade from its predecessor, slower rate of fire, but double the pellet count",
 
 	"size": 2,
-	"health": 280,
-	"reload": 60,
+	"health": 240,
+	"reload": 90,
 	"range": 150,
-	"maxAmmo": 24,
-	"inaccuracy": 5,
+	"maxAmmo": 40,
 	"shots" : 16,
-	"targetAir" : false, 
-	"targetGround" : true,
-	"shootCone" : 0.08,
-	"spread" : 3,
-	"recoil" : 8,
-	"restitution" : 0.6, 
-	"rotatespeed": 4,
+	"inaccuracy": 15,
+	"targetAir" : false,
+	"shootCone" : 3,
+	"spread" : 5,
+	"recoil" : 10,
+	"restitution" : 0.5, 
+	"rotatespeed": 5,
 	"shootSound" : "shotgun",
 	"ammoUseEffect": "shellEjectBig",
-	"xRand" : 1,
 	"ammoPerShot" : 8,
-
+	
 	"ammo": {
 		"lead": {
 			"type" : "BasicBulletType",
@@ -47,11 +45,11 @@
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 3,
-				"speed": 1,
+				"speed": 5,
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
-					"speed": 2,
+					"speed": 5,
 					"damage": 2,
 				}
 			}
