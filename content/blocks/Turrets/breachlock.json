@@ -47,11 +47,11 @@
 			"fragBullet": {
 				"type": "BasicBulletType",
 				"damage": 3,
-				"speed": 1,
+				"speed": 5,
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
-					"speed": 2,
+					"speed": 5,
 					"damage": 2,
 				}
 			}
