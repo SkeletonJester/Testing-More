@@ -11,8 +11,8 @@
 	"shots" : 16,
 	"inaccuracy": 15,
 	"targetAir" : false,
-	"shootCone" : 3,
-	"spread" : 5,
+	"shootCone" : 1.5,
+	"spread" : 3,
 	"recoil" : 10,
 	"restitution" : 0.5, 
 	"rotatespeed": 5,
@@ -46,10 +46,12 @@
 				"type": "BasicBulletType",
 				"damage": 3,
 				"speed": 5,
+				"lifetime": 30,
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
 					"speed": 5,
+					"lifetime": 30,
 					"damage": 2,
 				}
 			}
