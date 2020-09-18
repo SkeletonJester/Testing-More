@@ -4,26 +4,20 @@
 	"description": "Don,t let the looks fool you, despite its age, this old dog still pack some serious punch. Fires oversized shotgun shells that wrecks havoc upon close enemies",
 
 	"size": 1,
-	"health": 140,
-	"reload": 50,
+	"reload": 45,
 	"range": 120,
 	"maxAmmo": 12,
-	"inaccuracy": 8,
+	"inaccuracy": 5,
 	"shots" : 12,
-	
 	"targetAir" : false, 
 	"targetGround" : true,
-	"shootCone" : 0.09,
-	"spread" : 1,
-	
-	"recoil" : 3,
+	"shootCone" : 1,
+	"spread" : 2,
+	"recoil" : 5,
 	"restitution" : 0.5, 
 	"rotatespeed": 5,
-	
 	"shootSound" : "shotgun",
 	"ammoUseEffect": "shellEjectBig",
-
-	"xRand" : 1,
 	"ammoPerShot" : 4,
 
 	"ammo": {
@@ -51,13 +45,13 @@
 			"fragBullets": 3,
 			"fragBullet": {
 				"type": "BasicBulletType",
-				"damage": 3,
-				"speed": 1,
+				"damage": 2,
+				"speed": 5,
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
-					"speed": 2,
-					"damage": 2,
+					"speed": 5,
+					"damage": 1,
 				}
 			}
 		},
@@ -68,8 +62,8 @@
 			"speed": 5,
 			"damage": 10,
 				"splashDamage": 3,
-				"splashDamageRadius": 12.5,
-			"knockback": 5,
+				"splashDamageRadius": 16,
+			"knockback": 2,
 			"bulletHeight" : 10,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
