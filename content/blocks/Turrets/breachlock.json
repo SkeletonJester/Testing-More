@@ -48,10 +48,12 @@
 				"type": "BasicBulletType",
 				"damage": 3,
 				"speed": 5,
+				"lifetime": 30,
 				"fragBullets": 2,
 				"fragBullet": {
 					"type": "BasicBulletType",
 					"speed": 5,
+					"lifetime": 30,
 					"damage": 2,
 				}
 			}
