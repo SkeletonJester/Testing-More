@@ -59,6 +59,7 @@
 			
 			"type" : "BasicBulletType",
 			"speed": 5,
+			"reloadMultiplier": 0.5,
 			"damage": 15,
 				"splashDamage": 5,
 				"splashDamageRadius": 16,
