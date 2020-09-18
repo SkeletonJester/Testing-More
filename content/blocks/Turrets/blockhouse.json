@@ -11,14 +11,14 @@
 	"shots" : 16,
 	"inaccuracy": 15,
 	"targetAir" : false,
-	"shootCone" : 1,
+		"targetGround": true,
 	"spread" : 3,
 	"recoil" : 10,
-	"restitution" : 0.5, 
+	"restitution": 0.5, 
 	"rotatespeed": 5,
 	"shootSound" : "shotgun",
 	"ammoUseEffect": "shellEjectBig",
-	"ammoPerShot" : 8,
+	"ammoPerShot": 8,
 	
 	"ammo": {
 		"lead": {
