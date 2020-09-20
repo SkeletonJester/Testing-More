@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter"
+	"name": "Iron Refinery",
+	"description": "By pulverizing and refining Quartz and Copper, this refinery can produce Iron.",
+	"health":50 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "iron","amount":1 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 90,
+	"updateEffect": "smoke",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 2 }
+                { "item": "quartz", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "quartz", "amount": 100 }
+		{ "item": "copper", "amount": 80 }
+		{ "item": "lead", "amount": 45 }
+	],
+	"category": "crafting",
+	"research": "mechanical-drill",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
