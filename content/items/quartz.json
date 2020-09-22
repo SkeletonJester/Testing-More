@@ -1,6 +1,4 @@
-	"type":"material",
-	"name":"quartz",
-	"description":"A versatile material, often refined for other materials.",
-	"hardness": 1,
-	"cost": 1,
-	"color":"F5F5F5"
+	type:material
+	name:quartz
+	description:A versatile material, often refined for other materials.
+	cost: 1

@@ -1,4 +1,2 @@
-	type: OreBlock
-	itemDrop: quartz
-	playerUnmineable: false
-	variants: 3
+type: OreBlock
+itemDrop: quartz
