@@ -1,5 +1,5 @@
 	"type":"material",
-	"name":"Quartz",
+	"name":"quartz",
 	"description":"A versatile material, often refined for other materials.",
 	"hardness": 1,
 	"cost": 1,
