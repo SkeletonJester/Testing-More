@@ -1,0 +1,21 @@
+
+{
+	"name": "Demolished Mining Site",
+	"description": "While demolished, this area is rich with resources. Be wary of enemies - it seems they have had plenty of time to settle here.",
+    "conditionWave": 10,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 400},
+		{"item": "lead", "amount": 300},
+		{"item": "lead", "amount": 300},
+    ],
+    "requirements": [
+			{
+    		"type": "ZoneWave",
+			"zone": "stainedMountains", 
+    		"wave": 30
+			}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "quartz","titanium"]
+}
